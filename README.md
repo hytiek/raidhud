@@ -1,5 +1,5 @@
 # RaidHUD
-Light weight dashboard to quickly know which raids are available at a glance
+Lightweight dashboard to quickly know which raids are available at a glance
 
 Let's collaborate and build out the raid list. 
 
