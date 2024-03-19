@@ -73,7 +73,7 @@ local Raids = {
                 tooltip     = "Who: Sharvyn Oresinger\nPhrase: /say Kill it\nZone: /travelto Paludal Depths"
             },
             {
-                name        = "Means Streets",
+                name        = "Mean Streets",
                 available   = true,
                 lockedout   = "",
                 tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Significant\nZone: /travelto Shar Vahl, Divided"
