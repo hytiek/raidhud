@@ -63,6 +63,59 @@ local Raids = {
             },
         }
     },
+    {
+        era = "Night of Shadows",
+        events = {
+            {
+                name        = "Insatiable an Appetite",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Sharvyn Oresinger\nPhrase: /say Kill it\nZone: /travelto Paludal Depths"
+            },
+            {
+                name        = "Means Streets",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Significant\nZone: /travelto Shar Vahl, Divided"
+            },
+            {
+                name        = "Under Seige",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Larger\nZone: /travelto Shar Vahl, Divided"
+            },
+            {
+                name        = "Pit Fight",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Deal\nZone: /travelto Shar Vahl, Divided"
+            },
+            {
+                name        = "The Shadows Move",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Pass\nZone: /travelto Shar Vahl, Divided"
+            },
+            {
+                name        = "When One Door Closes",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Animist Khalan\nPhrase: /say Large\nZone: /travelto Ruins of Shadow Haven"
+            },
+            {
+                name        = "Deepshade - The Artist - Myconid Mutiny & Dance of the Demiurge",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Animist Soren\nPhrase: /say Help\nZone: /travelto Ruins of Shadow Haven"
+            },
+            {
+                name        = "The Spirit Fades",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: A Spirit Messenger\nPhrase: /say Large\nZone: /travelto Deepshade"
+            },
+        }
+    }       
     --[[ Add additional eras as desired
     {
         era = "-- to be defined --",
