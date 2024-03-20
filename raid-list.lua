@@ -17,7 +17,7 @@ local Raids = {
                 name        = "The Return of Kanghammer",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Dextris Kanghammer\nPhrase: /say this key\nZone: /travelto elddar (door 12)"
+                tooltip     = "Who: Dextris Kanghammer\nPhrase: (Hail and go through text)\nZone: /nav loc -859 -162 23 (door 12)"
             },
             {
                 name        = "Hand of the King",
