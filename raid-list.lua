@@ -103,7 +103,7 @@ local Raids = {
                 tooltip     = "Who: Animist Khalan\nPhrase: /say Large\nZone: /travelto Ruins of Shadow Haven"
             },
             {
-                name        = "Deepshade - The Artist - Myconid Mutiny & Dance of the Demiurge",
+                name        = "Myconid Mutiny",
                 available   = true,
                 lockedout   = "",
                 tooltip     = "Who: Animist Soren\nPhrase: /say Help\nZone: /travelto Ruins of Shadow Haven"
