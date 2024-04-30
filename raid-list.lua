@@ -115,7 +115,41 @@ local Raids = {
                 tooltip     = "Who: A Spirit Messenger\nPhrase: /say Large\nZone: /travelto Deepshade"
             },
         }
-    }       
+    }
+    {
+    era = "Terror of Luclin",
+    events = {
+        {
+            name        = "Shei Vinitras",
+            available   = true,
+            lockedout   = "",
+            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto Maidens Eye"
+            },
+        {
+            name        = "Zelnithak",
+            available   = true,
+            lockedout   = "",
+            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto Maidens Eye"
+            },
+        }
+    },
+    {
+        era = "Claws of Veeshan",
+        events = {
+            {
+                name        = "Zlandicar",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Watcher Scots\nPhrase: /say large\nZone: /travelto Western Wastes"
+            },
+            {
+                name        = "Tantor",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Who: Watcher Devin\nPhrase: /say large\nZone: /travelto Western Wastes"
+            },
+        }
+    }
     --[[ Add additional eras as desired
     {
         era = "-- to be defined --",
