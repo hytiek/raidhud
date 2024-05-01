@@ -115,7 +115,7 @@ local Raids = {
                 tooltip     = "Who: A Spirit Messenger\nPhrase: /say Large\nZone: /travelto Deepshade"
             },
         }
-    }
+    },
     {
     era = "Terror of Luclin",
     events = {
