@@ -149,6 +149,53 @@ local Raids = {
                 tooltip     = "Who: Watcher Devin\nPhrase: /say large\nZone: /travelto Western Wastes"
             },
         }
+    },
+    {
+        era = "Omens of War",
+        events = {
+            {
+                name        = "Replay Timer",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Keldovan the Harrier",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Rescuing Jelvan",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Ture",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Warden Hanvar",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Arch Magus Vangl",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+            {
+                name        = "Overlord Mata Muram",
+                available   = true,
+                lockedout   = "",
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+            },
+        }
     }
     --[[ Add additional eras as desired
     {
