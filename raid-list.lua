@@ -17,49 +17,49 @@ local Raids = {
                 name        = "The Return of Kanghammer",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Dextris Kanghammer\nPhrase: (Hail and go through text)\nZone: /nav loc -859 -162 23 (door 12)"
+                tooltip     = "Who: Dextris Kanghammer\nPhrase: (Hail and go through text) (door 12)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Hand of the King",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Bidils the Quickhand\nPhrase: /say want to see\nZone: /nav loc -873 -92 23 (door 14)"
+                tooltip     = "Who: Bidils the Quickhand\nPhrase: /say want to see (door 14)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Shadow of My Shadow",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Elistyl Kanghammer\nPhrase: /say go\nZone: /travelto timorousfalls (door 6)"
+                tooltip     = "Who: Elistyl Kanghammer\nPhrase: /say go (door 6)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Prisoners of Ankexfen",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Thormir Helmsbane\nPhrase: /say want\nZone: /travelto ankexfen (door 10)"
+                tooltip     = "Who: Thormir Helmsbane\nPhrase: /say want (door 10)\nZone: /travelto laurioninn"
             },
             {
                 name        = "What is it For?",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Dhakka Nogg\nPhrase: /say interested\nZone: /travelto moorsofnokk (door 9)"
+                tooltip     = "Who: Dhakka Nogg\nPhrase: /say interested (door 9)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Artisan of War",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Thornel Grayleaf\nPhrase: /say wish\nZone: /travelto unkemptwoods (door 4)"
+                tooltip     = "Who: Thornel Grayleaf\nPhrase: /say wish (door 4)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Heroes Are Forged",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Elisel\nPhrase: /say large\nZone: /travelto herosforge"
+                tooltip     = "Who: Elisel\nPhrase: /say large (door in field)\nZone: /travelto laurioninn"
             },
             {
                 name        = "Final Fugue",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Shalowain\nPhrase: /say large\nZone: /travelto pallomen"
+                tooltip     = "Who: Shalowain\nPhrase: /say large (door 7)\nZone: /travelto laurioninn"
             },
         }
     },
@@ -70,49 +70,49 @@ local Raids = {
                 name        = "Insatiable an Appetite",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Sharvyn Oresinger\nPhrase: /say Kill it\nZone: /travelto Paludal Depths"
+                tooltip     = "Who: Sharvyn Oresinger\nPhrase: /say Kill it\nZone: /travelto paludaltwo"
             },
             {
                 name        = "Mean Streets",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Significant\nZone: /travelto Shar Vahl, Divided"
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Significant\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "Under Siege",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Larger\nZone: /travelto Shar Vahl, Divided"
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Larger\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "Pit Fight",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Deal\nZone: /travelto Shar Vahl, Divided"
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Deal\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "The Shadows Move",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Pass\nZone: /travelto Shar Vahl, Divided"
+                tooltip     = "Who: Sergeant Hujiid\nPhrase: /say Pass\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "When One Door Closes",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Animist Khalan\nPhrase: /say Large\nZone: /travelto Ruins of Shadow Haven"
+                tooltip     = "Who: Animist Khalan\nPhrase: /say Large\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "Myconid Mutiny",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Animist Soren\nPhrase: /say Help\nZone: /travelto Ruins of Shadow Haven"
+                tooltip     = "Who: Animist Soren\nPhrase: /say Help\nZone: /travelto sharvahltwo"
             },
             {
                 name        = "The Spirit Fades",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: A Spirit Messenger\nPhrase: /say Large\nZone: /travelto Deepshade"
+                tooltip     = "Who: A Spirit Messenger\nPhrase: /say Large\nZone: /travelto deepshade"
             },
         }
     },
@@ -123,13 +123,13 @@ local Raids = {
             name        = "Shei Vinitras",
             available   = true,
             lockedout   = "",
-            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto Maidens Eye"
+            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto maidentwo"
             },
         {
             name        = "Zelnithak",
             available   = true,
             lockedout   = "",
-            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto Maidens Eye"
+            tooltip     = "Who: a worrisome shade\nPhrase: /say large\nZone: /travelto maidentwo"
             },
         }
     },
@@ -140,13 +140,13 @@ local Raids = {
                 name        = "Zlandicar",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Watcher Scots\nPhrase: /say large\nZone: /travelto Western Wastes"
+                tooltip     = "Who: Watcher Scots\nPhrase: /say large\nZone: /travelto westwastestwo"
             },
             {
                 name        = "Tantor",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Watcher Devin\nPhrase: /say large\nZone: /travelto Western Wastes"
+                tooltip     = "Who: Watcher Devin\nPhrase: /say large\nZone: /travelto westwastestwo"
             },
         }
     },
@@ -157,43 +157,43 @@ local Raids = {
                 name        = "Replay Timer",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Keldovan the Harrier",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Rescuing Jelvan",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Ture",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Warden Hanvar",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Arch Magus Vangl",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
             {
                 name        = "Overlord Mata Muram",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto Wall of Slaughter"
+                tooltip     = "Where: NW Corner Gate \nAction: Click gate\nZone: /travelto wallofslaughter"
             },
         }
     }
