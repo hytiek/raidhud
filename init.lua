@@ -25,6 +25,7 @@ local function updateRaidStatus()
             if eventIndex ~= nil then
                 Raids[i].events[ii].available = false
                 Raids[i].events[ii].lockedout = tostring(mq.TLO.Window("DynamicZoneWnd/DZ_TimerList").List(eventIndex,1))
+                Raids[i].events[ii].expedition = tostring(mq.TLO.Window("DynamicZoneWnd/DZ_TimerList").List(eventIndex,2))
             end
         end
     end
@@ -38,15 +39,27 @@ local function updateUI()
             if (ImGui.CollapsingHeader(era.era)) then
                 for _, event in ipairs(era.events) do
                     if event.available == true then
-                        ImGui.BulletText(event.name);
+                        ImGui.BulletText(event.name)
                         if ImGui.IsItemHovered() then
-                            ImGui.SetTooltip(event.tooltip);
+                            ImGui.SetTooltip(event.tooltip)
+                        end
+                        if ImGui.IsItemClicked() then
+                            local travelto_command = event.tooltip:match("/travelto (%w+)")
+                            if travelto_command then
+                                mq.cmdf("/travelto %s", travelto_command)
+                            end
                         end
                     else
                         ImGui.Bullet()
-                        ImGui.TextDisabled(event.name);
+                        ImGui.TextDisabled(event.name)
                         if ImGui.IsItemHovered() then
-                            ImGui.SetTooltip("Lockout time: " .. event.lockedout);
+                            ImGui.SetTooltip("Lockout time: " .. event.lockedout .. "\nExpedition: " .. event.expedition)
+                        end
+                        if ImGui.IsItemClicked() then
+                            local travelto_command = event.tooltip:match("/travelto (%w+)")
+                            if travelto_command then
+                                mq.cmdf("/travelto %s", travelto_command)
+                            end
                         end
                     end
                 end
@@ -55,6 +68,7 @@ local function updateUI()
     end
     ImGui.End()
 end
+
 
 local function toggleUI()
     isOpen = not isOpen
