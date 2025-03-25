@@ -1,15 +1,15 @@
 local Raids = {
-        {
+    {
         era = "The Outer Brood",
         events = {
             {
-                name        = "Herald of the Outer Brood",
+                name        = "The Herald of the Outer Brood",
                 available   = true,
                 lockedout   = "",
                 tooltip     = "Who: Karina Stalis\nPhrase: (Hail and go through text)\nZone: Hodstock Hills"
             },
             {
-                name        = "Landing",
+                name        = "The Landing",
                 available   = true,
                 lockedout   = "",
                 tooltip     = "Who: Captain Edraneth\nPhrase: (Hail and go through text)\nZone: Theatre of Eternity"
@@ -39,7 +39,7 @@ local Raids = {
                 tooltip     = "Who: Alchemist Balino Frugrin\nPhrase: (Hail and go through text)\nZone:	Theater of Eternity"
             },
             {
-                name        = "The Leviathan's Heart",
+                name        = "Leviathan\'s Heart",
                 available   = true,
                 lockedout   = "",
                 tooltip     = "Who: Master Alchemist Penigan\nPhrase: (Hail and go through text)\nZone: The Chambers of Puissance"
@@ -48,7 +48,7 @@ local Raids = {
                 name        = "The High Priest",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Lokta Geroth\nPhrase: (Hail and go through text)\nZone:	Aureate Covert"
+                tooltip     = "Who: Lokta Geroth\nPhrase: (Hail and go through text)\nZone: Aureate Covert"
             },
         }
     },
