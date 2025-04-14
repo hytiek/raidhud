@@ -6,13 +6,13 @@ local Raids = {
                 name        = "The Herald of the Outer Brood",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Karina Stalis\nPhrase: (Hail and go through text)\nZone: Hodstock Hills"
+                tooltip     = "Who: Karina Stalis\nPhrase: /say Interested\nZone: Hodstock Hills"
             },
             {
                 name        = "The Landing",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Captain Edraneth\nPhrase: (Hail and go through text)\nZone: Theatre of Eternity"
+                tooltip     = "Who: Captain Edraneth\nPhrase: /say take him on\nZone: Theatre of Eternity"
             },
             {
                 name        = "Dock of the Bay",
@@ -24,7 +24,7 @@ local Raids = {
                 name        = "Silence the Cannons",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Admiral Karkoni\nPhrase: (Hail and go through text)\nZone: Aureate Covert"
+                tooltip     = "Who: Admiral Karkoni\nPhrase: /say undertake\nZone: Aureate Covert"
             },
             {
                 name        = "The Control Room",
@@ -36,19 +36,19 @@ local Raids = {
                 name        = "Brood Architect Hazuri",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Alchemist Balino Frugrin\nPhrase: (Hail and go through text)\nZone:	Theater of Eternity"
+                tooltip     = "Who: Alchemist Balino Frugrin\nPhrase: /say large\nZone:	Theater of Eternity"
             },
             {
                 name        = "Leviathan\'s Heart",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Master Alchemist Penigan\nPhrase: (Hail and go through text)\nZone: The Chambers of Puissance"
+                tooltip     = "Who: Master Alchemist Penigan\nPhrase: /say large\nZone: The Chambers of Puissance"
             },
             {
                 name        = "The High Priest",
                 available   = true,
                 lockedout   = "",
-                tooltip     = "Who: Lokta Geroth\nPhrase: (Hail and go through text)\nZone: Aureate Covert"
+                tooltip     = "Who: Lokta Geroth\nPhrase: /say large\nZone: Aureate Covert"
             },
         }
     },
