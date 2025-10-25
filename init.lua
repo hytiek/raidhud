@@ -5,7 +5,7 @@
  / _, _/ /_/ / / /_/ / __  / /_/ / /_/ / 
 /_/ |_|\__,_/_/\__,_/_/ /_/\____/_____/  
 
-- from hytiek (version 1.0)
+- from hytiek
 Let's collaborate; submit PR to https://github.com/hytiek/raidhud
 
 ]]
@@ -17,6 +17,8 @@ require('ImGui')
 local terminate, isOpen, shouldDraw = false, true, true
 
 local Raids = require('raidhud.raid-list')
+
+local titleText = "RaidHUD (" .. mq.TLO.Me.CleanName() .. ")"
 
 local function updateRaidStatus()
     for i, era in ipairs(Raids) do
@@ -32,7 +34,7 @@ end
 
 local function updateUI()
     if not isOpen then return end
-    isOpen, shouldDraw = ImGui.Begin('RaidHUD', isOpen)
+    isOpen, shouldDraw = ImGui.Begin(titleText, isOpen)
     if shouldDraw then
         for _, era in ipairs(Raids) do
             if (ImGui.CollapsingHeader(era.era)) then
